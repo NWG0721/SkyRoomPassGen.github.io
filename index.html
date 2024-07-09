@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./public/Css/output.css" />
+    <title>دریافت پسورد اسکای روم</title>
+  </head>
+  <body>
+    <div class="m-0 bg-Layer1 w-full h-screen flex flex-row justify-around">
+      <div
+        class="flex flex-col justify-around bg-Layer2 lg:w-[40%] lg:h-[90%] rounded-[80px] mt-10 mb-10 shadow-2xl sm:w-[90%] sm:h-[90%] mini:w-[90%]"
+      >
+        <div class="h-60 flex justify-center text-[80px] text-Layer4 mt-10">
+          <p id="Code">0-0-0-0-0</p>
+        </div>
+
+        <div class="flex flex-col justify-center">
+          <label for="telephone" class="text-[30px] text-center text-Layer4"
+            >شماره خود را وارد کنید</label
+          >
+          <br />
+          <input
+            type="tel"
+            name="telephone"
+            id="telephone"
+            class="w-[40%] ml-[30%] bg-Layer3 h-10 p-3 text-Text1 text-[30px] text-center rounded-2xl"
+            placeholder="09xx-xxx-xxxx"
+          />
+        </div>
+        <div class="mb-44 flex flex-col justify-center bg-Layer3 w-[40%] h-10 text-Layer4 rounded-2xl ml-[30%] text-[30px]">
+            <button onclick="Generate()">ثبت</button>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="./public/javaScripts/Generator.js"></script>
+</html>
